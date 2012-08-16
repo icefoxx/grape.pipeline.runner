@@ -52,7 +52,7 @@ When we receive Fastq or bam files for a project, we typically have to:
     cd grape.buildout/pipelines/MyProject
     ./bin/grape-runner
 
-The grape.pipeline.runner package install the grape-runner console script that is used
+The grape.pipeline.runner package installs the grape-runner console script that is used
 in step number 5. 
 The buildout uses the recipe to produce the individual pipelines and 
 preconfigure the start and execute scripts with all the necessary command 
